@@ -6,39 +6,108 @@ flex-direction: column;
 }
 
 header{
+display: flex;
+justify-content: space-between;
+
+border: 2px solid black;
+}
+
+#top-left{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 
     border: 2px solid black;
 }
 
-#logo-pic-div{
+#top-right{
     display: flex;
-    justify-content: center;
+    align-items: center;
 
     border: 2px solid black;
+}
+
+#apps-button{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    background-image: url("//ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-position: -132px -38px;
+    opacity: 0.5;
+    border: none;
+}
+
+#sign-in-button{
+    background-image: url(images/ProfPic.jpg);
+    background-size: contain;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#logo-pic-div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 92px;
+max-height: 290px;
+
+border: 2px solid black;
+}
+
+#logo-pic{
+    margin-top: 176px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#search-area{
+    padding: 20px;
 }
 
 #search-bar{
     display: flex;
     justify-content: center;
-    height: 30px;
-    padding: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
 
-    border: 2px solid black;
+#search-input{
+    border:none;
+    flex-grow: 1;
+    height: 24px;
+    align-self: center;
+
+}
+
+#mag-glass{
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin: 0 8px 4px 10px;
+}
+
+#mic{
+    width: 24px;
+    height: 27px;
+    align-self: center;
+    margin: 0 8px 0 8px;
 }
 
 #search-buttons{
     display:flex;
     justify-content: center;
-    padding: 5px;
-    margin: 30px 0 0;
 
     border: 2px solid black;
 }
 
 #space-below-search{
-    height: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
 
     border: 2px solid black;
 }
@@ -50,9 +119,13 @@ header{
 }
 
 footer{
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
 
 
 }
@@ -62,9 +135,4 @@ footer{
     justify-content: space-between;
 
     border: 2px solid black;
-}
-
-#bottom-left{
-    display: flex;
-    justif
 }
