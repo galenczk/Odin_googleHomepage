@@ -1,8 +1,15 @@
-look up responsize sizing for webpages
-
-correct search buttons
-
-adjust margins for top buttons
-
-adjust margins for sustainability and lower buttons
-
+add links to the following:
+    sign in button
+    gmail
+    images
+    about
+    store
+    apps
+    advertising
+    business
+    How Search works
+    privacy
+    terms
+    settings
+    Google Search - link to google.com
+    I'm Feeling Lucky - link to google.com
