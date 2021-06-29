@@ -9,6 +9,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -127,7 +131,7 @@ header{
     display:flex;
     justify-content: center;
     padding: 18px 0 0 0;
-
+    font-size: 14px;
 }
 
 #search-button{
@@ -137,7 +141,7 @@ header{
     border: #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    line-height: 27px;
+    line-height: 35px;
     height: 36px;
     min-width: 54px;
     text-align: center;
@@ -151,11 +155,27 @@ header{
     border: #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    line-height: 27px;
+    line-height: 35px;
     height: 36px;
     min-width: 54px;
     text-align: center;
     cursor: pointer;
+}
+
+#search-button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+    color: #202124;
+    text-decoration: none;
+    margin: 11px 3px;
+}
+
+#IFL-button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+    color: #202124;
+    text-decoration: none;
+    margin: 11px 3px;
 }
 
 #space-below-search{
@@ -186,6 +206,10 @@ footer{
     color: #70757a;
     font-size: 14px;
     white-space: nowrap;
+}
+
+#carbon-neutral{
+    color: #70757a;
 }
 
 #leaf{
